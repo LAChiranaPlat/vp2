@@ -27,16 +27,16 @@ class MainActivity : AppCompatActivity() {
 
         val manager=TabLayoutMediator(tabs,vp,TabLayoutMediator.TabConfigurationStrategy({tabs:TabLayout.Tab,position:Int->
 
-            tabs.text=texts.get(position).toString()
+     //       tabs.text=texts.get(position).toString()
 
-/*            when(position)
+            when(position)
             {
                 0->tabs.setIcon(getDrawable(R.drawable.home))
                 1->tabs.setIcon(getDrawable(R.drawable.publicaciones))
                 2->tabs.setIcon(getDrawable(R.drawable.contacts))
                 3->tabs.setIcon(getDrawable(R.drawable.post))
                 4->tabs.setIcon(getDrawable(R.drawable.setting))
-            }*/
+            }
 
         }))
 
